@@ -44,5 +44,7 @@ describe("Choice", async () => {
 
       expect(tokens).to.equal(0);
     });
+
+    describe("Vote", async () => {});
   });
 });

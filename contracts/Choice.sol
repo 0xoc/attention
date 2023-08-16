@@ -118,7 +118,7 @@ contract Choice {
         cycleIndex = cycles.length - 1;
         CycleMetadata memory lastCycle = cycles[cycleIndex];
 
-        if (lastCycle.cycle > 0) {
+        if (cycleIndex > 0) {
             fee = (amount * feeRate) / 10000;
         }
 
